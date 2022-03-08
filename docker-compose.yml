@@ -3,22 +3,25 @@ version: "3"
 services:
   server:
     container_name: wellai_server
-    command: sh -c "python3 manage.py makemigrations &&
-        python3 manage.py migrate --noinput && 
+    build:
+      context: ./backend
+      dockerfile: ./Dockerfile
+    command: sh -c "python3 manage.py migrate --noinput && 
+        python3 manage.py flush --noinput &&
+        python3 load_data.py &&
         python3 manage.py collectstatic --noinput && 
         gunicorn -c config/gunicorn.setting.py"
     restart: unless-stopped 
     ports:
     - 8000:8000
-    build:
-      context: ./backend
-      dockerfile: ./Dockerfile
     volumes:
+      - static_volume:/usr/src/app/.static
       - ./backend:/usr/src/app
     depends_on:
       - db
     env_file:
       - .env.prod
+
   db:
     image: postgres
     restart: unless-stopped
@@ -28,18 +31,7 @@ services:
       - 5432:5432
     env_file:
       - .env.prod.db
-  client:
-    container_name: wellai_client
-    build:
-      context: ./frontend
-      dockerfile: ./Dockerfile
-    volumes:
-      - ./frontend:/usr/src/client
-    restart: unless-stopped
-    ports:
-      - 3000:3000
-    environment:
-      - CHOKIDAR_USEPOLLING=true
-
+    
 volumes:
   postgres_data:
+  static_volume:
