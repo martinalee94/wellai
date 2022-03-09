@@ -1,11 +1,11 @@
 [submodule "backend"]
 	path = backend
 	url = https://kdt-gitlab.elice.io/ai_track/class_03/ai_project/team10/backend.git
-	branch = develop
+	branch = master
 [submodule "frontend"]
 	path = frontend
 	url = https://kdt-gitlab.elice.io/ai_track/class_03/ai_project/team10/frontend.git
-	branch = dev
+	branch = master
 [submodule "ai"]
 	path = ai
 	url = https://kdt-gitlab.elice.io/ai_track/class_03/ai_project/team10/ai.git
