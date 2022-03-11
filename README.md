@@ -78,8 +78,7 @@
 <br>
 
 ## 4. 시스템 아키텍쳐 ✅
-<img src="uploads/1bf4f592503a2f2d02afeb82621a3f8e/image.png" width="600px"></img>
-
+<img src="/uploads/2d30cd91d59ff6dffa39c34a146e69e3/archi.001.png" width="600px"></img>
 
 <br>
 
