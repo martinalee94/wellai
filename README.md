@@ -3,18 +3,18 @@
 
 
 ## 1. 프로젝트 소개 ✅
-#### 1. 서비스 개요 및 배경 <br>
-- 코로나 19의 시간을 거치며, 건강에 대한 중요성이 증대 되고 다른 사람들과의 접촉을 최소화하기 시작했습니다.
-그리고 점차 ‘집'에서 할 수 있는 활동에 관심을 가지기 시작했죠.   
-그 중에서 웰라이는 집에서 건강을 지킬 수 있는, 인공지능(Aritificial Intelligence, AI)을 적용한 스마트한 홈트레이닝'서비스에 집중했습니다.   
-'내가 잘 따라하고 있나?', '이 자세가 맞는 자세인가?'를 고민하고, 운동을 어려워 하는 사람들을 대상으로 합니다.   
-실시간으로 AI가 당신의 움직임을 파악해서 도식화로 표시하고, 순운동시간을 기록해 줌으로써 실질적인 피드백을 받아 가실 수 있습니다.   
-'요가'는 특별한 운동 기구가 필요 없고, 정적이지만 근력 향상과 심신 수련에 많은 도움을 주는 운동이죠.   
+#### 1.1 서비스 개요 및 배경 <br>
+- 코로나 19의 시간을 거치며, 건강에 대한 중요성이 증대 되고 다른 사람들과의 접촉을 최소화하기 시작했습니다. <br>
+그리고 점차 ‘집'에서 할 수 있는 활동에 관심을 가지기 시작했죠. <br>
+그 중에서 웰라이는 집에서 건강을 지킬 수 있는, 인공지능(Aritificial Intelligence, AI)을 적용한 스마트한 홈트레이닝'서비스에 집중했습니다.  <br>
+'내가 잘 따라하고 있나?', '이 자세가 맞는 자세인가?'를 고민하고, 운동을 어려워 하는 사람들을 대상으로 합니다.<br> 
+실시간으로 AI가 당신의 움직임을 파악해서 도식화로 표시하고, 순운동시간을 기록해 줌으로써 실질적인 피드백을 받아 가실 수 있습니다.<br>
+'요가'는 특별한 운동 기구가 필요 없고, 정적이지만 근력 향상과 심신 수련에 많은 도움을 주는 운동이죠.  <br> 
 심적으로, 체력적으로 어려운 시간을 겪고 있는 현대인들에게 웰라이가 새로운 운동 라이프를 열어 드릴게요:)
 
 <br>
 
-#### 2. 서비스 목표 
+  #### 1.2 서비스 목표 
 **집에서도 요가학원 수업을 듣는 것처럼 실시간으로 자세 확인을 받으며 운동할 수 있다.**
 - 운동 자세 가이드 영상을 보면서 요가 자세를 따라할 수 있다.
 - 웹캠을 켜고 요가 자세를 취하면 AI가 운동 자세를 체킹해 준다.
@@ -65,26 +65,32 @@
 
 <br>
 
-## 3. 데이터셋 ✅
+
+
+## 3. 사용한 기술 ✅
+| 파트 | 기술 |
+| ------ | ------ |
+| Management | Gitlab, Notion, Figma |
+| 인공지능(AI) | <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=TensorFlow&logoColor=white"/></a> <img src="https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white"/></a>|
+| 프론트엔드 | <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=React&logoColor=white"/></a> <img src="https://shields.io/badge/TypeScript-3178C6?logo=TypeScript&logoColor=FFF&style=flat-square"/></a>|
+| 백엔드  | <img src="https://img.shields.io/badge/Django-092E20?style=flat-square&logo=Django&logoColor=white"></a> <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=PostgreSQL&logoColor=white"/></a> <img src="https://img.shields.io/badge/Gunicorn-499848?style=flat-square&logo=Gunicorn&logoColor=white"/></a> <img src="https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=Nginx&logoColor=white"/></a> <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=Docker&logoColor=white"/></a> |
+
+<br>
+
+## 4. 시스템 아키텍쳐 ✅
+<img src="uploads/1bf4f592503a2f2d02afeb82621a3f8e/image.png" width="600px"></img>
+
+
+<br>
+
+## 5. 데이터셋 ✅
 - 요가 이미지 데이터 셋
   - [Yoga-82: A New Dataset for Fine-grained Classification of Human Poses](https://arxiv.org/abs/2004.10362)
   - [Yoga Pose Image classification dataset](https://www.kaggle.com/shrutisaxena/yoga-pose-image-classification-dataset)
 
 <br>
 
-## 4. 사용한 기술 ✅
-| 파트 | 기술 |
-| ------ | ------ |
-| Management | Gitlab, Notion, Figma |
-| Frontend | <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=React&logoColor=white"/></a> <img src="https://shields.io/badge/TypeScript-3178C6?logo=TypeScript&logoColor=FFF&style=flat-square"/></a>|
-| Backend  | <img src="https://img.shields.io/badge/Django-092E20?style=flat-square&logo=Django&logoColor=white"></a> <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=PostgreSQL&logoColor=white"/></a> <img src="https://img.shields.io/badge/Gunicorn-499848?style=flat-square&logo=Gunicorn&logoColor=white"/></a> <img src="https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=Nginx&logoColor=white"/></a> <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=Docker&logoColor=white"/></a> |
-| AI | <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=TensorFlow&logoColor=white"/></a> <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=OpenCV&logoColor=white"/></a> <img src="https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white"/></a>|
-
-<br>
-
-## 5. 프로젝트 팀원 소개 ✅
-| 이름 | 담당 업무 |
-| ------ | ------ |
+## 6. 프로젝트 팀원 소개 ✅
 | 이름 | 포지션 | 담당 업무 |
 | ------ | ------ | ------ |
 | **김한예슬** | 인공지능 | 1. 인공지능 서비스 초기 기획,조사<br> 2.데이터 수집, 전처리, 모델로 전처리, 모델링, 모델 평가 및 선택<br> 3. 클라이언트 사이드 모델로 변환 및 경량화<br> 4. 메인 서비스 테스트 및 메인 서비스 테스트 코드 작성|
@@ -97,33 +103,13 @@
 <br>
 
 
-## 6. 실행 방법 ✅
+## 7. 실행 방법 ✅
 ###### Backend
 ```
 docker-compose up
 ```
-
 ###### Frontend
 ```
 npm install
 npm start
-```
-
-###### git submodule 설정
-
-```
-# 1. git clone
-git clone https://kdt-gitlab.elice.io/ai_track/class_03/ai_project/team10/wellai.git
-
-
-# (서브모듈 처음 사용시)
-git submodule init
-git submodule update
-
-# sub레포지토리 최신 커밋으로 업데이트
-git submodule update --remote
-
-# 업데이트 된 사항 메인레포지토리에 반영
-git add
-git push
 ```
