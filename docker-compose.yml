@@ -8,7 +8,7 @@ services:
       dockerfile: ./Dockerfile
     command: sh -c "python3 manage.py migrate --noinput && 
         python3 manage.py flush --noinput &&
-        python3 load_data.py &&
+        python3 data/load_data.py &&
         python3 manage.py collectstatic --noinput && 
         gunicorn -c config/gunicorn.setting.py"
     restart: unless-stopped
