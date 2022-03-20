@@ -93,6 +93,7 @@
 - **관련 문서**
   - [와이어프레임](https://www.figma.com/file/0FC6VjrVkBBflLS2iMMo8U/확정본)
   - [요구 명세서](https://unruly-space-e0e.notion.site/a1fd4e5741974262860677ff806af234)
+  - [프로젝트소개서](https://unruly-space-e0e.notion.site/AI-3-WellAi-bc717739a2d84acb9cc16e1d264c9c4e)
 
 <br>
 
