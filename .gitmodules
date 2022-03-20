@@ -8,4 +8,4 @@
 	branch = master
 [submodule "ai"]
 	path = ai
-	url = https://kdt-gitlab.elice.io/ai_track/class_03/ai_project/team10/ai.git
+	url = https://github.com/martinalee94/ai10-ai.git
